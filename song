@@ -1,0 +1,32 @@
+class song{
+public string songname;
+public string singer;
+public double time;
+}
+
+class player{
+public boolean addsong();
+}
+
+class master{
+stalic list<song>listsong{};
+public boolean play();
+
+public void selectplay();
+
+}
+
+class songdrive{
+public master master;
+public player player;
+public songdrive(){
+player.addsong();
+master.paly();
+master.selectplay();
+
+}
+
+public stalic void main(){
+player.addsong();
+songdeive.songdrive;
+}
